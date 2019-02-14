@@ -46,24 +46,37 @@ It is categorized into various sections which are listed in table of contents as
 
 Several questions come to mind when we come across a new dataset.  The below list shed light on some of these questions:-
 
+
 •	What is the distribution of the dataset?
+
 •	Are there any missing numerical values, outliers or anomalies in the dataset?
+
 •	What are the underlying assumptions in the dataset?
+
 •	Whether there exists relationships between variables in the dataset?
+
 •	How to be sure that our dataset is ready for input in a machine learning algorithm?
+
 •	How to select the most suitable algorithm for a given dataset?
+
 So, how do we get answer to the above questions? 
 
 The answer is **Exploratory Data Analysis**. It enable us to answer all of the above questions.
 
-**Exploratory Data Analysis** or EDA is a critical first step in analyzing a new dataset. The primary objective of EDA is to analyze the data for distribution, outliers and anomalies in the dataset. It enable us to direct specific testing of the hypothesis. It includes analysing the data to find the distribution of data, its main characteristics, identifying patterns and visualizations.  It also provides tools for hypothesis generation by visualizing and understanding the data through graphical representation. According to Howard Seltman (Carnegie Mellon University), “loosely speaking, any method of looking at data that does not include formal statistical modeling and inference falls under the term exploratory data analysis”. 
+**Exploratory Data Analysis** or **EDA** is a critical first step in analyzing a new dataset. The primary objective of EDA is to analyze the data for distribution, outliers and anomalies in the dataset. It enable us to direct specific testing of the hypothesis. It includes analysing the data to find the distribution of data, its main characteristics, identifying patterns and visualizations.  It also provides tools for hypothesis generation by visualizing and understanding the data through graphical representation. 
+
+According to Howard Seltman (Carnegie Mellon University), **"loosely speaking, any method of looking at data that does not include formal statistical modeling and inference falls under the term exploratory data analysis"**. 
 
 
+=================================================================================
 
 
 ## 2. Types of a variable
 
-Generally, there are two types of variables in the dataset.  These are **Categorical variables** and **Quantitative variables**.  There are other types of variables in the dataset. For example - confounding variables, control variables, measurement variables, random variables or ranked variables. But these are less common type. So, I will limit the discussion to **Categorical** and **Quantitative** variables, as these are the most common types of variables. 
+Generally, there are two types of variables in the dataset.  These are **Categorical variables** and **Quantitative variables**.  
+There are other types of variables in the dataset. For example - confounding variables, control variables, measurement variables, 
+random variables or ranked variables. But these are less common type. So, I will limit the discussion to **Categorical** and **Quantitative** variables, as these are the most common types of variables. 
+
 
 ## Categorical variable
 
@@ -74,29 +87,44 @@ For example:
 
 •	The category “gender” could contain the categorical variables “Male” or “Female”.
 
-We can divide categorical data into four types. These are:-
-**nominal data**, 
-**ordinal data**, 
-**interval data**, and 
-**ratio data** data. 
 
-These terms were developed by Stanley Smith Stevens, an American psychologist.  His work was published in 1946 and these terms came into effect. These four types of data variable – nominal, ordinal, interval and ratio data are best understood with the help of examples.
+We can divide categorical data into four types. These are:-
+
+**nominal data**, 
+
+**ordinal data**, 
+
+**interval data**, and 
+
+**ratio data**. 
+
+
+These terms were developed by Stanley Smith Stevens, an American psychologist.  His work was published in 1946 and these terms came 
+into effect. These four types of data variable – nominal, ordinal, interval and ratio data are best understood with the help of examples.
 
 
 **Nominal variable**
-A categorical variable is also called a **nominal** variable when it has two or more categories. There is no ordering involved with this type of variable. For example, hair colour is a categorical variable having a number of categories - black, blonde, brown, brunette, red, etc. and there is no agreed way to order these from highest to lowest. 
+
+A categorical variable is also called a **nominal** variable when it has two or more categories. There is no ordering involved with 
+this type of variable. For example, hair colour is a categorical variable having a number of categories - black, blonde, brown, brunette, red, etc. and there is no agreed way to order these from highest to lowest. 
+ 
  
 **Ordinal variable**
+
 In ordinal variables, there is a ordering involved. The order of the values is important and significant. We classify data into three categories. The categories may be low, medium and high. So, the categories express an order of measurement. If these categories were equally spaced, then that variable would be an interval variable.
 
+
 **Interval variable**
-An interval variable is similar to an ordinal variable where the values of the interval variable are equally spaced. So, the difference between two interval variables is measurable and constant. The example of an interval scale is Celsius temperature because the difference between each value is the same.  For example, the difference between 60 and 50 degrees is a measurable 10 degrees, as is the difference between 80 and 70 degrees. 
+
+An interval variable is similar to an ordinal variable where the values of the interval variable are equally spaced. So, the 
+difference between two interval variables is measurable and constant. The example of an interval scale is Celsius temperature 
+because the difference between each value is the same.  For example, the difference between 60 and 50 degrees is a measurable 10 degrees, as is the difference between 80 and 70 degrees. 
+
 
 **Ratio variable**
-A ratio variable, has all the properties of an interval variable, and also has a clear definition of 0.0. When the variable equals 0.0, there is none of that variable. Variables like height, weight, enzyme activity are ratio variables. Temperature, expressed in F or C, is not a ratio variable. 
 
-
-
+A ratio variable, has all the properties of an interval variable, and also has a clear definition of 0.0. When the variable equals 0.0, there is none of that variable. Variables like height, weight, enzyme activity are ratio variables. Temperature, expressed in F or C, 
+is not a ratio variable. 
 
 
 
@@ -104,14 +132,18 @@ A ratio variable, has all the properties of an interval variable, and also has a
 
 The second category of variables are **Quantitative variables**. They contain numerical data. They can be further classified into two categories:-
 
+
 **Discrete variable**
 
 Discrete variables are numeric variables that have a finite number of countable values between any two values. A discrete variable is always numeric. For example, the number of customer complaints or the number of flaws or defects.
+
 
 **Continuous variable**
 
 Continuous variables are numeric variables that have an infinite number of values between any two values. A continuous variable can be numeric or date/time. The examples of continuous variables are income, temperature, height, weight, and distance. 
 
+
+=================================================================================
 
 ## 3. Distribution of a variable
 
@@ -138,6 +170,7 @@ When the dataset involves three or more variables, it is categorized under multi
 There are wide variety of analysis techniques to perform multivariate analysis. The choice of analysis techniques depends on the dataset and our goals to be achieved. Some examples of multivariate analysis techniques are additive tree, cluster analysis, correspondence analysis, factor analysis, MANOVA (multivariate analysis of variance), multidimensional scaling, multiple regression analysis, principal component analysis and redundancy analysis.
 
 
+=================================================================================
 
 
 
@@ -250,6 +283,7 @@ So, we should always perform appropriate EDA before further analysis of the data
 I have summarized the above discussion in the following table.
 
 
+=================================================================================
 
 
 
@@ -278,6 +312,8 @@ The following table summarizes the useful EDA techniques depending on the object
 | Visualize  high-dimensional data          | Principal component analysis,  3-D scatter plot |
 
 
+=================================================================================
+
 
 ## 6. Objectives of exploratory data analysis
 Before proceeding, we need to summarize the objectives of the EDA. The objectives of the EDA are as follows:-
@@ -285,6 +321,10 @@ i.	To get an overview of the distribution of the dataset.
 ii.	Check for missing numerical values, outliers or other anomalies in the dataset.
 iii.	Discover patterns and relationships between variables in the dataset.
 iv.	Check the underlying assumptions in the dataset.
+
+
+=================================================================================
+
 
 ## 7. Exploratory data analysis - prerequisites
 We need two Python libraries for exploratory data analysis – NumPy and Pandas.
@@ -301,6 +341,9 @@ We need two more libraries for data visualization purpose. These are Seaborn and
 •	**Matplotlib** - Matplotlib is the core data visualization library of Python programming language. It provides an object-oriented API for embedding plots into applications.
 
 
+=================================================================================
+
+
 ## 8. Import the required Python libraries
 We have seen that we need two Python libraries – NumPy and Pandas for the exploratory data analysis process. Also, we need two more libraries – Seaborn and Matplotlib for data visualization purposes. We need to import these libraries before we actually start using them. We can import them with their usual shorthand notation as follows:-
 
@@ -311,8 +354,7 @@ We have seen that we need two Python libraries – NumPy and Pandas for the expl
 `%matplotlib inline`
 
 
-
-
+=================================================================================
 
 
 ## 9. Dataset description
@@ -374,12 +416,19 @@ And 7 categories without (CID) patient follow-up (22), medical consultation (23)
 20. Body mass index 
 21. Absenteeism time in hours (target) 
 
+
+=================================================================================
+
+
 ## 10. Import the dataset
 We can import the dataset using the usual **read_csv()** function as follows:-
 data = "C:/eda/Absenteeism_at_work.csv"
 df = pd.read_csv(data, sep=";")
 
 Generally, in the csv file the values are separated by a comma. So, there is no need to use the sep parameter which describes how the values are separated. In this case, the values are separated by semicolon (;). So, I used the sep = ";" parameter to denote that the values are separated by semicolon.
+
+
+=================================================================================
 
 
 ## 11. Overview of the dataset
@@ -410,6 +459,10 @@ There are two columns `ID` and `Pet` which have no correlation with the target v
 
 ### df.describe() method
 We can view the summary statistics of numerical columns with **df.describe()** method. It enable us to detect outliers in the data which require further investigation.
+
+
+=================================================================================
+
 
 ## 12. Check for anomalies in the dataset
 Now, we should check for any discrepancy in the dataset. 
@@ -546,6 +599,9 @@ Asserts
 `assert (df['column_name']!=0).all().all()`
 
 
+=================================================================================
+
+
 ## 13. Univariate analysis
 ### Measures of central tendency and dispersion
 **Central tendency** means a central value which describe a probability distribution. It may also be called a center or location of the distribution. The most common measures of central tendency are the **arithmetic mean**, the **median** and the **mode**. The most common measure of central tendency is the **mean**. For skewed distribution or when there is concern about outliers, the **median** may be preferred. So, **median** is more robust measure than the mean.
@@ -623,6 +679,8 @@ Findings of univariate analysis are as follows:-
 
 •	The `Absenteeism time in hours` data values follow the lognormal distribution relatively closely as compared to normal distribution.
 
+
+=================================================================================
 
 
 ## 14. Multivariate analysis
@@ -712,6 +770,8 @@ Findings of multivariate analysis are as follows:-
 
 •	The people who have 2 sons have highest number of `Absenteeism time in hours`.
 
+
+=================================================================================
 
 
 ## 15. References
